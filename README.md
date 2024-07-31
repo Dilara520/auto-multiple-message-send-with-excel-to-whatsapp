@@ -37,6 +37,8 @@ Before you start, ensure you have the following installed on your system:
         - `Açıklama 2`: Second part of the message. (example: 'Name Surname,')
         - `Mesaj`: The main message content. (`%0A`: new line)
         - `Medya`: (Optional) The path to the media file to be sent along with the message.
+     
+     ⚠️ **Important:** You can modify the Excel file format and the code accordingly to fit your needs. Ensure path row has field type of text.
 
 2. **Update the script:**
 
@@ -61,7 +63,7 @@ Before you start, ensure you have the following installed on your system:
 - **QR Code Login:** The script uses your existing Chrome user data directory to avoid repeated QR code scans. Ensure you have proper permissions and the path is correctly set.
 - **Media Files:** If a media path is provided, the script will attach and send the media file along with the message.
 
-## Troubleshooting
+## 🚨 Troubleshooting
 
 - **QR Code Login Issue:** If the script opens a new Chrome window and requires a QR code scan each time even you are already logged in, ensure the `chrome_user_data_dir` is correctly set and accessible.
 - **Permissions:** Ensure the Chrome user data directory has the necessary read and write permissions for the user running the script.
