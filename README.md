@@ -17,8 +17,8 @@ Before you start, ensure you have the following installed on your system:
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/Dilara520/auto-multiple-message-send-with-excel-to-whatsapp.git 
-    cd auto-multiple-message-send-with-excel-to-whatsapp
+    git clone https://github.com/Dilara520/whatsapp-auto-send-excel.git 
+    cd whatsapp-auto-send-excel
     ```
 
 3. **Download ChromeDriver:**
